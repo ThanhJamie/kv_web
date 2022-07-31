@@ -1,0 +1,88 @@
+header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: var(--z-fixed);
+    /* background: #fff; */
+    /* background: #040a18;
+    box-shadow: 0 1px 4px rgba(146, 161, 176, 0.15); */
+}
+
+.header_logo {
+    width: 48px;
+}
+.name_logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 138px;
+}
+
+.box {
+    /* Rectangle 256 */
+
+    box-sizing: border-box;
+
+    position: absolute;
+    left: 53.04%;
+    right: 0.64%;
+    top: 0%;
+    bottom: 0%;
+
+    background: rgba(151, 145, 200, 0.5);
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+}
+
+.nav {
+    height: var(--header-height);
+    display: flex !important;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: var(--font-weight);
+    font-family: var(--header-font);
+    box-shadow: 0 4px 6px rgba(146, 161, 176, 0.15);
+}
+
+.sign {
+    display: flex;
+    width: 500px;
+    justify-content: space-between;
+    margin-right: 138px;
+}
+.box_sign {
+    display: flex;
+    color: #ffffff;
+}
+.box_signin {
+    width: 144px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(5, 108, 176, 0.5);
+    border: 1px solid rgba(255, 255, 255, 0.75);
+    border-radius: 10px;
+    margin: 0 10px;
+}
+
+.box_signup {
+    width: 144px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(5, 108, 176, 0.5);
+    border: 1px solid rgba(255, 255, 255, 0.75);
+    border-radius: 10px;
+}
+
+.card_icon {
+    width: 36px;
+    align-items: center;
+    display: flex;
+}
+
+.toggleMenu {
+    font-size: 28px;
+    color: #ffffff;
+}
