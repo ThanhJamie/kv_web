@@ -1,0 +1,19 @@
+.home_img {
+    padding-top: 80px;
+}
+.intro_des {
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    /* right: -27.84%; */
+    left: 32%;
+    top: 16%;
+}
+
+.sub_heading {
+    font-size: 22px;
+}
+
+.intro_heading {
+    font-size: 80px;
+}

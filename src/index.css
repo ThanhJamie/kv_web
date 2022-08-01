@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
-@import url("https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono&display=swap");
 
 * {
     margin: 0;
@@ -24,8 +24,8 @@
 }
 /* CSS Font Style */
 :root {
-    --header-font: 'Anton', sans-serif;
-    --body-font: "PT Sans Narrow", sans-serif;
+    --header-font: "Alfa Slab One", cursive;
+    --body-font: "Space Mono", monospace;
     --big-font-size: 2rem;
     --h2-font-size: 1.5rem;
     --normal-font-size: 1rem;
@@ -82,7 +82,9 @@ ul {
 a {
     text-decoration: none;
 }
-
+i {
+    font-style: normal;
+}
 /* Layout */
 .bd_grid {
     max-width: 1440px;
@@ -92,11 +94,11 @@ a {
     width: calc(100% - 2rem);
     margin-left: var(--mb-2);
     margin-right: var(--mb-2);
-    background-color: #040A18;
+    background-color: #040a18;
 }
 
 img {
-    max-width: 100%;
+    /* max-width: 100%; */
     height: auto;
     display: block;
 }

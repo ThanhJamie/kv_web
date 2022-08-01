@@ -1,0 +1,45 @@
+.showImage {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+}
+
+.imgBox {
+    border: 1px solid #6b678a;
+}
+
+.des_title {
+    font-family: var(--body-font);
+    color: #fff;
+    font-weight: 700;
+    font-size: 28px;
+    margin-top: 42px;
+    margin-bottom: 22px;
+}
+
+.des_time {
+    color: #9791c8;
+    font-family: "Space Mono";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 25px;
+}
+
+.des_button {
+    font-family: "Space Mono";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 35px;
+    background: #9791c8;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    color: #fff;
+    margin: auto;
+    width: 180px;
+    height: 40px;
+    margin-top: 18px;
+    margin-bottom: 42px;
+}
